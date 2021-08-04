@@ -98,14 +98,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 {
-  font-size: 36px;
+  font-size: 50px;
   padding: 0;
   margin: 0;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -385,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-text {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 100px;
   right: 0;
   height: calc(85% - 60px);
   display: flex;
@@ -600,7 +600,8 @@ section {
 }
 
 #about .about-img {
-  height: 380px;
+  height: 590px;
+  width: 1000px;
   overflow: hidden;
 }
 
