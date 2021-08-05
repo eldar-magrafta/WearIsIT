@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: linear-gradient(45deg, #F6E0F0, #C0A0B7);
+  background: linear-gradient(45deg, #FFA6EB, #C0A0B7);
   height: 70px;
   transition: all 0.5s;
 }
@@ -103,9 +103,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   letter-spacing: 3px;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -507,7 +507,7 @@ section {
   font-size: 32px;
   color: #111;
   text-align: center;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .section-header .section-description {
@@ -515,6 +515,7 @@ section {
   padding-bottom: 40px;
   color: #777;
   font-style: italic;
+  font-size: 20px;
 }
 
 .section-header .section-divider {
@@ -707,7 +708,7 @@ section {
 #features .title {
   font-weight: 300;
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 34px;
 }
 
 #features .title a {
@@ -715,7 +716,7 @@ section {
 }
 
 #features .description {
-  font-size: 14px;
+  font-size: 17px;
   line-height: 24px;
   margin-bottom: 10px;
 }
